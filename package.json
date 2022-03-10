@@ -1,0 +1,13 @@
+{
+  "name": "show-aggregator",
+  "version": "1.0.4",
+  "repository": "kacperturon/show-aggregator",
+  "description": "Aggregates multiple folders with shows into a single folder\nPass directory where you want to execute the script if it's different than current working directory",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
