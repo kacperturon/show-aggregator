@@ -10,6 +10,8 @@ const getShowName = (str) => {
   return (arr && arr.length > 0 && arr[0]) || null;
 };
 
+module.exports.getShowName = getShowName;
+
 function cleanFiles(parent, files) {
   let richMediaFiles = files.filter((f) => getShowName(f) && allowExtensions.some((ext) => f.endsWith(ext)));
   let output = {};
